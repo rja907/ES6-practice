@@ -18,6 +18,6 @@ const children = [
 ];
 const tree = new Comment('Great! :D', children);
 
-for (let value of children) {
+for (let value of tree) {
   values.push(value);
 }
